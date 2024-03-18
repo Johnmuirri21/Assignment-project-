@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>John's Hotel</title>
+  <style>
+    /* Add your custom styles here */
 
+    /* Set the video as a background with absolute positioning */
+    #video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    /* Styling for the menu and description */
+    .menu {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+      color: white;
+    }
+
+    .description {
+      margin-top: 100px;
+      text-align: center;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <!-- Video Background -->
+  <video id="video-background" autoplay muted loop>
+    <source src="path/to/your/video.mp4" type="video/mp4">
+    <!-- Add additional video formats here for cross-browser compatibility -->
+  </video>
+
+  <!-- Menu -->
+  <div class="menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Description -->
+  <div class="description" id="home">
+    <h1>Welcome to John's Hotel</h1>
+    <p>Experience luxury and comfort at our prime location</p>
+    <a href="#rooms">Scroll Down</a>
+  </div>
+
+  <!-- Add the rest of your HTML content here -->
+
+  <!-- Second Page -->
+  <div id="rooms">
+    <h2>Available Rooms</h2>
+    <div class="room">
+      <div class="room-image">
+        <img src="path/to/room1.jpg" alt="Room 1">
+      </div>
+      <div class="room-details">
+        <h3 class="room-title">Deluxe Room</h3>
+        <p class="room-description">Spacious room with a comfortable king-sized bed and modern amenities.</p>
+        <p class="room-price">$200 per night</p>
+      </div>
+    </div>
+
+    <div class="room">
+      <div class="room-image">
+        <img src="path/to/room2.jpg" alt="Room 2">
+      </div>
+      <div class="room-details">
+        <h3 class="room-title">Executive Suite</h3>
+        <p class="room-description">Luxurious suite with separate living area, stunning views, and a private balcony.</p>
+        <p class="room-price">$300 per night</p>
+      </div>
+    </div>
+
+    <!-- Add more room listings as needed -->
+
+  </div>
+
+  <!-- Add the rest of your HTML content here -->
+
+</body>
+      </html>
